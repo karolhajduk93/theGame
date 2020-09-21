@@ -1,20 +1,28 @@
 <template>
     <div id="app">
-        <Home msg="Hello world!" />
+
     </div>
 </template>
 
 <script>
-    import Home from './components/Home.vue';
-
     export default {
         name: 'app',
         components: {
-            Home
+           
         }
     };
 </script>
 
 <style>
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+}
 </style>
 
